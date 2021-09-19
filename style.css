@@ -9,16 +9,21 @@ h1 {
   text-align: center;
 }
 
-h2 {
+p {
   color: white;
   text-align: center;
 }
 
-h4 {
+/* h2 {
+  color: white;
+  text-align: center;
+} */
+
+/* h4 {
   color: white;
   text-align: center;
 }
-
+ */
 
 .jumbotron {
     background-image: url("belly-button.jpg");

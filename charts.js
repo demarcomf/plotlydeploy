@@ -112,7 +112,8 @@ function init() {
         mode: 'markers',
         marker: {
           size : sample_value,
-          color: otu_id
+          color: otu_id,
+          colorscale: "Earth"
         }
       }
       ];

@@ -1,11 +1,7 @@
-style {
+body {   
   height: 500px;
   background-color: red;
   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
-}
-
-body { 
-    background-color: #F0F8FF;
   }
 
 .jumbotron {

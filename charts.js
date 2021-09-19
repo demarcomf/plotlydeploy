@@ -156,8 +156,8 @@ function init() {
       // 5. Create the layout for the gauge chart.
       var gaugeLayout = { 
         title: { text: "Belly Button Washing Frequency <br> Scrubs Per Week"},
-        width: 350,
-        height: 350,
+        width: 400,
+        height: 400,
         plot_bgcolor: '#a4d4ff',
         paper_bgcolor: '#a4d4ff',
       };

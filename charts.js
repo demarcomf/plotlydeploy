@@ -98,7 +98,7 @@ function init() {
             color: xticks,
             colorscale: "Earth"
       } 
-      ];
+     
       // 9. Create the layout for the bar chart. 
       var barLayout = {
         title: 'Top 10 Bacteria Cultures Found', 

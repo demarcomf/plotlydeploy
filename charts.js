@@ -92,6 +92,11 @@ function init() {
         text: hoverlabels,
         y: yticks,
         x: xticks,  
+        mode: 'markers',
+        marker: {
+            size: yticks,
+            color: xticks,
+            colorscale: "Earth"
       } 
       ];
       // 9. Create the layout for the bar chart. 
@@ -139,7 +144,7 @@ function init() {
         value: wash_freq,
         gauge: {
           axis: { range: [null, 10], tickcolor: "black" },
-          bar: { color: "black" },
+          bar: { color: "white" },
           bgcolor: "blue",
           borderwidth: 2,
           bordercolor: "pink",

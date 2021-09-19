@@ -97,8 +97,8 @@ function init() {
       // 9. Create the layout for the bar chart. 
       var barLayout = {
         title: 'Top 10 Bacteria Cultures Found', 
-        paper_bgcolor: '#fff0f8',
-        plot_bgcolor: '#fff0f8'
+        paper_bgcolor: '#a4d4ff',
+        plot_bgcolor: '#a4d4ff'
       };
       // 10. Use Plotly to plot the data with the layout. 
       Plotly.newPlot("bar", barData, barLayout);
@@ -124,8 +124,8 @@ function init() {
           title: "OTU ID"
         },
         hovermode: 'closest',
-        paper_bgcolor: '#fff0f8',
-        plot_bgcolor: '#fff0f8'
+        paper_bgcolor: '#a4d4ff',
+        plot_bgcolor: '#a4d4ff'
       };
   
       // 3. Use Plotly to plot the data with the layout.
@@ -139,14 +139,12 @@ function init() {
         gauge: {
           axis: { range: [null, 10], tickcolor: "black" },
           bar: { color: "black" },
-          bgcolor: "white",
+          bgcolor: "blue",
           borderwidth: 2,
-          bordercolor: "gray",
+          bordercolor: "pink",
           steps: [
-            { range: [0, 2], color: "red" },
-            { range: [2, 4], color: "lightred" },
-            { range: [4, 6], color: "orange" },
-            { range: [6, 8], color: "yellow" },
+            { range: [0, 4], color: "red" },
+            { range: [4, 8], color: "orange" },
             { range: [8, 10], color: "green" }
           ],
         }
@@ -157,10 +155,10 @@ function init() {
       // 5. Create the layout for the gauge chart.
       var gaugeLayout = { 
         title: { text: "Belly Button Washing Frequency <br> Scrubs Per Week"},
-        width: 500,
+        width: 400,
         height: 400,
-        plot_bgcolor: '#fff0f8',
-        paper_bgcolor: '#fff0f8',
+        plot_bgcolor: '#a4d4ff',
+        paper_bgcolor: '#a4d4ff',
       };
   
       // 6. Use Plotly to plot the gauge data and layout.

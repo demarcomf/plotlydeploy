@@ -96,7 +96,7 @@ function buildCharts(sample) {
     ];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: 'Top 10 Bacteria Cultures Found', 
+      title: 'Top 10 Bacteria Cultures', 
       paper_bgcolor: '#f0fff8',
       plot_bgcolor: '#f0fff8'
     };
@@ -120,7 +120,7 @@ function buildCharts(sample) {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: 'Bacteria Cultures Per Sample',
+      title: 'Cultures Per Sample',
       xaxis: {
         title: "OTU ID"
       },

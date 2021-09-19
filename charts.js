@@ -140,7 +140,7 @@ function buildCharts(sample) {
       gauge: {
         axis: { range: [null, 10], tickcolor: "black" },
         bar: { color: "black" },
-        bgcolor: "blue",
+        bgcolor: "gray",
         borderwidth: 2,
         bordercolor: "black",
         steps: [
@@ -158,8 +158,8 @@ function buildCharts(sample) {
       title: { text: "Cleaning Frequency Per Week"},
       width: 350,
       height: 350,
-      plot_bgcolor: '#F0F8FF',
-      paper_bgcolor: '#F0F8FF',
+      plot_bgcolor: '#fffcf0',
+      paper_bgcolor: '#fffcf0',
     };
 
     // 6. Use Plotly to plot the gauge data and layout.

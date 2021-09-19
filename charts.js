@@ -112,7 +112,9 @@ function init() {
         mode: 'markers',
         marker: {
           size : sample_value,
-          color: otu_id
+          color: ['rgb(93, 164, 214)', 'rgb(255, 144, 14)',  'rgb(44, 160, 101)', 'rgb(255, 65, 54)'],
+          opacity: [1, 0.8, 0.6, 0.4],
+          size: [40, 60, 80, 100]
         }
       }
       ];
@@ -144,8 +146,8 @@ function init() {
           bordercolor: "pink",
           steps: [
             { range: [0, 4], color: "red" },
-            { range: [4, 8], color: "orange" },
-            { range: [8, 10], color: "green" }
+            { range: [4, 6], color: "orange" },
+            { range: [6, 10], color: "green" }
           ],
         }
       }

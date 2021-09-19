@@ -15,9 +15,12 @@ p {
 
 .jumbotron {
     background-image: url("belly-button.jpg");
-    border: 2px solid black;
-    padding: 30px;
     background-size: 100% 100%;
     text-align: center;
     color: rgb(0, 0, 0);
   }
+
+.jumbotron {
+    border: 2px solid black;
+    padding: 30px;
+}
